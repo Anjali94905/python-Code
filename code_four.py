@@ -16,7 +16,7 @@ subjects = {
 
 print(len(subjects))
 
-#WAP to enter marks of 3 sunject from the user and store them in a dictionary .
+#WAP to enter marks of 3 subject from the user and store them in a dictionary .
 #start with an empty dictionary & add one by one .use subject namee as key &marks a value.
 
 marks = {}
