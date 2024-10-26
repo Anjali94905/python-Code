@@ -1,4 +1,4 @@
-# store followings in a python dictionary.
+# (q1)store followings in a python dictionary.
 
 dictionary = {
     "cat"  : "a small animal",
@@ -7,7 +7,7 @@ dictionary = {
 
 print(dictionary)
 
-# you are given a list of subjects for students . Assume one classroom is required for 1 subject . how many classroom are needed by all students.
+# (q2)you are given a list of subjects for students . Assume one classroom is required for 1 subject . how many classroom are needed by all students.
 
 subjects = {
     "python", "java", "c++", "python", "javascript",
@@ -16,7 +16,7 @@ subjects = {
 
 print(len(subjects))
 
-#WAP to enter marks of 3 subject from the user and store them in a dictionary .
+# (q3)WAP to enter marks of 3 subject from the user and store them in a dictionary .
 #start with an empty dictionary & add one by one .use subject namee as key &marks a value.
 
 marks = {}
@@ -32,7 +32,7 @@ marks.update({"chem" :x})
 
 print(marks)
 
-# Figure out a way to store 9 & 9.0 as separate values in the set (You can take help of built-in data types)
+# (q4)Figure out a way to store 9 & 9.0 as separate values in the set (You can take help of built-in data types)
 
 values = {
     ("float", 9.0),
