@@ -17,9 +17,9 @@ elif(a4>a1 and a4>a2 and a4>a3):
     print("greatest numbers a4:",a4)
 
 #(Q2) WAPto find out whether a student has password or failed.
-#marks1 = int(input("enter marks1:"))   
-#marks2 = int(input("enter marks2:"))   
-#marks3 = int(input("enter marks3:"))  
+marks1 = int(input("enter marks1:"))   
+marks2 = int(input("enter marks2:"))   
+marks3 = int(input("enter marks3:"))  
 
 # Check for total percentage
 total_percentage =(100*(marks1 + marks2 + marks3))/300
@@ -31,7 +31,7 @@ else:
     print("You failed, try again next !", total_percentage)
 
 # (Q3) A spam is defined as a text containing following keywords:"Make a lot of money ",
-# ,"buy now", "subscribe this", "click this". WAPto detect these spams.
+# "buy now", "subscribe this", "click this". WAPto detect these spams.
  
 p1 ="Make a lot of money "
 p2 = "buy now"
