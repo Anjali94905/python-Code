@@ -12,8 +12,6 @@ print("Thank you Anjali..")
 #avg()
 #avg()
 #avg()
-#avg()
-
 #  function  Argument
 def goodday(name, ending):
     print("Good Day," + name)
