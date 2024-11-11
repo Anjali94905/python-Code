@@ -13,7 +13,7 @@ c1 = Circle(21)
 print(c1.area())  
 print(c1.perimeter())
 
-#(Q2)Define a Employee class with attribute role, department & salary.this class also has a showDetails() method
+#(Q2)Define  Employee class with attribute role, department & salary.this class also has a showDetails() method
 # create an Engineer class that inherits from EMPLOYEE & has additional attributes : name & age.
 class Employee:
     def __init__(self, role, dept, salary):
@@ -32,8 +32,8 @@ class Engineer(Employee):
         self.age = age
         super().__init__("Engineer","IT","75,000")
 
-engg1 = Engineer("Elon Musk",48)
-engg1.showDetails()
+Eng1 = Engineer("Elon Musk",48)
+Eng1.showDetails()
 
 # (Q3) Create a class called Order which stores item & its price.use Dunder function --gt--() to convey that:
 #Order1 >Order2 if price of order1> price of order2
